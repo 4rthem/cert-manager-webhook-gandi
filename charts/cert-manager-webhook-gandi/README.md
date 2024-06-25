@@ -7,7 +7,7 @@ A Helm chart for cert-manager-webhook-gandi.
 Install the helm chart repository:
 
 ```bash
-helm repo add cert-manager-webhook-gandi https://arthem.github.io/cert-manager-webhook-gandi
+helm repo add cert-manager-webhook-gandi https://4rthem.github.io/cert-manager-webhook-gandi
 ```
 
 Install the chart:
@@ -30,7 +30,7 @@ helm install cert-manager-webhook-gandi cert-manager-webhook-gandi/cert-manager-
 | gandiApiToken | string | `""` | The secret is not created if not set. |
 | groupName | string | `"acme.bwolf.me"` | "Group is the API group name this server hosts", if you find this description helful. |
 | image.pullPolicy | string | `"IfNotPresent"` | Image pull policy |
-| image.repository | string | `"ghcr.io/arthem/cert-manager-webhook-gandi"` | Image name |
+| image.repository | string | `"ghcr.io/4rthem/cert-manager-webhook-gandi"` | Image name |
 | image.tag | string | `""` | Image tag (default to Chart's appVersion) |
 | logLevel | int | `2` | Verbosity of the logs. Set to 6 for verbose logs. |
 | nameOverride | string | `""` | Set to override the name |
