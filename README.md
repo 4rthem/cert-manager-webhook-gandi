@@ -31,7 +31,7 @@ Build the container image `cert-manager-webhook-gandi:latest`:
 ## Image
 Ready made images are hosted on Docker Hub ([image tags]). Use at your own risk:
 
-    ghcr.io/sintef/cert-manager-webhook-gandi
+    ghcr.io/arthem/cert-manager-webhook-gandi
 
 
 ### Release History
@@ -72,7 +72,7 @@ Refer to the [CHANGELOG](CHANGELOG.md) file.
 
    *The `features.apiPriorityAndFairness` argument must be removed or set to `false` for Kubernetes older than 1.20.*
 
-        helm repo add cert-manager-webhook-gandi https://sintef.github.io/cert-manager-webhook-gandi
+        helm repo add cert-manager-webhook-gandi https://arthem.github.io/cert-manager-webhook-gandi
 
         helm install cert-manager-webhook-gandi cert-manager-webhook-gandi/cert-manager-webhook-gandi \
             --set gandiApiToken=<GANDI-API-KEY>
