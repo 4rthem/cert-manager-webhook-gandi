@@ -2,8 +2,8 @@ GO ?= $(shell which go)
 OS ?= $(shell $(GO) env GOOS)
 ARCH ?= $(shell $(GO) env GOARCH)
 
-IMAGE_NAME := "arthem/cert-manager-gandi"
-IMAGE_TAG := "0.4.0"
+IMAGE_NAME := "4rthem/cert-manager-gandi"
+IMAGE_TAG := "0.5.0"
 
 OUT := $(shell pwd)/_out
 
